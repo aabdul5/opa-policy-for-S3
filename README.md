@@ -11,4 +11,4 @@ Policy Overview
 The policy in policy.rego implements a simple RBAC system. It:
 
 * Defines a default deny for access.
-* Allows access only if the "RoleArn" retrieved from the data source (likely input.aws.request.principal.arn) contains the substring "st-access-role" (case-sensitive).
+* Allows access only if the "RoleArn" retrieved from the data source contains the substring "st-access-role" (case-sensitive).
